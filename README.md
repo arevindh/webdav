@@ -3,7 +3,7 @@ A dockeriezd WebDAV server based on Nginx. Example usage:
 ```
 services:
   webdav:
-    image: derkades/webdav
+    image: ghcr.io/arevindh/webdav/webdav:latest
     volumes:
       - /home/webdav-container:/data
     ports:
